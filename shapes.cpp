@@ -116,33 +116,54 @@ int main()
 
 
     //  X 
-    for(int i = 0; i<x; i++)
-    {
-        int n=0;
+    // for(int i = 0; i<x; i++)
+    // {
+    //     int n=0;
     
         
-        for(int j=i; j>0 ; j--)
-        {
-            n++; 
-            cout<<" ";
-        }
-        cout<<"*";
-        if(i!=(x/2)){
+    //     for(int j=i; j>0 ; j--)
+    //     {
+    //         n++; 
+    //         cout<<" ";
+    //     }
+    //     cout<<"*";
+    //     if(i!=(x/2)){
 
-        for(int j=x-2*n; j>0 ; j--)
+    //     for(int j=x-2*n; j>0 ; j--)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     cout<<"*";
+    //     }
+        
+        
+    //     cout<<endl;
+        
+
+    // }
+
+
+    cout<<"\n\n";
+ 
+//    reverse triangle with condition
+        for(int i = 0; i<x; i++)
+    {
+        for(int j = 0  ; j<x; j++)
         {
+            if(j+i>=x-1)
+            {
+            cout<<"*";
+            }
+            else
+            {
             cout<<" ";
-        }
-        cout<<"*";
-        }
+            }
         
-        
+        }
         cout<<endl;
-        
+
 
     }
- 
-
 
 
 
